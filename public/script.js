@@ -193,14 +193,6 @@
         document.getElementById("misc-section").classList.remove("hidden");
       });
 
-      // community and leaderboards alerts
-      document.getElementById("community").addEventListener("click", () => {
-        alert("Community feature coming soon!");
-      });
-
-      document.getElementById("leaderboards").addEventListener("click", () => {
-        alert("Leaderboards feature coming soon!");
-      });
 
       document
         .getElementById("new-save-button")
